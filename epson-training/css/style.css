@@ -1,0 +1,144 @@
+body
+{
+    padding:10px;
+}
+a
+{
+    font-size: 20px;
+    text-decoration: none;
+    color:green;
+    cursor: none;
+}
+li.link
+{
+    border:1px solid green ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:15px;
+    padding:10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: help;
+}
+
+li.link:hover
+{
+    background-color:red;
+    border: 1px solid red;
+    color:white;
+    border-radius: 5px;
+}
+/*Edit your code*/
+ol{
+    background: skyblue;
+    padding:5px;
+    display: flex;
+    justify-content: right;
+}
+.flx-div
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    background-color: orange;
+    padding:15px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+ol li
+{
+    background-color: aquamarine;
+    margin:1px;
+    padding:5px;
+    list-style-type: none;
+
+}
+ul
+{
+    background: pink;
+    padding:5px;
+}
+ul li
+{
+    margin: 1px;
+    background-color: gainsboro;
+    padding:5px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+th,td
+{
+    padding:10px;
+    text-align: left;
+    border-bottom:1px solid gray;
+}
+tr:hover
+{
+    background-color: cadetblue;
+    cursor: pointer;
+}
+tr:nth-child(odd)
+{
+    background-color:darkslategray;
+}
+tr:nth-child(even)
+{
+    background-color:dimgray;
+}
+.parent
+{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    
+}
+.child
+{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    top:50px;
+    left:50px;
+    z-index:-1;
+    float: right;
+}
+.ovrflw
+{
+    margin-top:30px;
+    background-color: aquamarine;
+    margin-left:auto;
+    margin-right:auto ;
+    width:80%;
+    height: 300px;
+    padding:20px;
+    overflow: auto;
+}
+.flx--parent
+{
+    margin-top:30px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content:space-around;
+}
+.flx--parent div
+{
+    height: 100px;
+    width:100px;
+    background-color: aqua;
+    border:3px solid black;
+}
+/*
+ static
+ relative
+ fixed
+ absolute
+ sticky
+*/
